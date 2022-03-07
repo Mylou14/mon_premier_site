@@ -38,7 +38,7 @@ body {
 }
 
 h1 {
-  color: rgb(37, 43, 32);
+  color: rgb(188, 228, 151);
   font-size: 3.5rem;
   text-align: center;
   text-transform: uppercase;
@@ -93,12 +93,14 @@ button a {
 #tiktok-btn:hover {
   background:radial-gradient(
     circle at 30% 107%,
-    #010101 0%,
     #010101 5%,
     #69C9D0 45%,
     #FFFFFF 60%,
-    #EE1D52 90% );
+    #EE1D52 90%, 
+    #010101 0%);
   }
+  #tiktok-btn:hover a{
+    color: black;}
 
 #instagram-btn:hover {
   background: radial-gradient(
@@ -123,7 +125,7 @@ button a {
 
 #footer {
   position: absolute;
-  bottom: 0.5rem;
+  bottom: 0.3rem;
   color: rgb(120, 151, 90); 
   font-size: smaller;
 
@@ -165,6 +167,12 @@ button a {
   #lien button:nth-of-type(3) {
     margin: 0;
   }
-
+  #footer {
+    position: absolute;
+    bottom: 0rem;
+    color: rgb(120, 151, 90); 
+    font-size: smaller;
+  
+  }
   
 }
