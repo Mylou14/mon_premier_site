@@ -1,3 +1,5 @@
 var result = prompt("Quel est ton nom ?");
 var element = document.getElementById('nom');
-element.innerHTML = result;
+if(result != null){
+  element.innerHTML = "Merci d'avoir visité mon site, " + result + " !";
+}
