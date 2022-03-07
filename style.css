@@ -92,10 +92,10 @@ button a {
 
 #tiktok-btn:hover {
   background:radial-gradient(
-    circle at 50% 100%, 
-    #69C9D0 45%,
-    #FFFFFF 10%,
-    #EE1D52 45%, 
+    circle at 30% 107%, 
+    #69C9D0 90%,
+    #FFFFFF 20%,
+    #EE1D52 90%, 
     );
   }
   #tiktok-btn:hover a{
