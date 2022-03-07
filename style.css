@@ -92,14 +92,13 @@ button a {
 
 #tiktok-btn:hover {
   background:radial-gradient(
-    circle at 30% 107%, 
-    #69C9D0 90%,
-    #FFFFFF 20%,
-    #EE1D52 90%, 
+    #69C9D0,
+    #FFFFFF,
+    #EE1D52, 
     );
   }
   #tiktok-btn:hover a{
-    color: black;}
+    color: rgb(94, 93, 93);}
 
 #instagram-btn:hover {
   background: radial-gradient(
