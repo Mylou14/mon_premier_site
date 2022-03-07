@@ -84,21 +84,18 @@ button a {
 }
 
 #snap-btn:hover a{
-  color: black;
+  color: rgb(0, 0, 0);
 }
 #github-btn:hover {
   background: #4078c0;
 }
 
 #tiktok-btn:hover {
-  background:radial-gradient(
-    #69C9D0,
-    #FFFFFF,
-    #EE1D52, 
-    );
+  background:
+    #69C9D0;
   }
   #tiktok-btn:hover a{
-    color: rgb(94, 93, 93);}
+    color: rgb(255, 255, 255);}
 
 #instagram-btn:hover {
   background: radial-gradient(
