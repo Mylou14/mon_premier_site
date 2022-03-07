@@ -130,14 +130,14 @@ button a {
 @media (max-device-width: 480px) {
   body {
     background: none;
-    
+    height: auto;
+    background: #fff6e4;
   }
 
   #principale {
-    width: 100%;
-    height: 100%;
     border-radius: 0;
-    background: #fff6e4;
+    width: auto;
+    height: auto;
   }
 
   img {
